@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			var a = new Array();
+			a[0] = 95; 
+			a[1] = 'name'; 
+			a[2] = function(){ return 'Hello World'; }; 
+			a[3] = 10/+0; 
+			a[4] = 10/-0; 
+			a[5] = 10/'a'; 
+			a[6] = null; 
+			a[7] = undefined
+			var i=0;
+			for (i = 0; i < a.length; i++) {
+				 // code to be executed
+				 alert(a[i]);
+				 alert(typeof(a[i]));
+			}
+		</script>		
+	</body>
+</html>
